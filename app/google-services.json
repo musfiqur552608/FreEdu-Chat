@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362874405861",
+    "project_id": "freedu-chat",
+    "storage_bucket": "freedu-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362874405861:android:3b5dcb5aab04cd067a250c",
+        "android_client_info": {
+          "package_name": "org.freedu.freeduchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlgWd7sFcJQNkvR_9P8EG4hvYDMaFdPiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
