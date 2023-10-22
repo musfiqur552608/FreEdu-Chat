@@ -4,13 +4,16 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true
+    }
     namespace = "org.freedu.freeduchat"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "org.freedu.freeduchat"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -44,4 +47,19 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation ("com.github.mukeshsolanki.android-otpview-pinview:otpview-compose:3.1.0")
+    implementation ("com.github.mukeshsolanki.android-otpview-pinview:otpview:3.1.0")
+
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
+    implementation ("com.github.pgreze:android-reactions:1.5.1")
+
+    implementation ("com.github.3llomi:CircularStatusView:V1.0.3")
+
+    implementation ("com.github.OMARIHAMZA:StoryView:1.0.2-alpha")
+
+    implementation ("com.github.OMARIHAMZA:StoryView:1.0.2-alpha")
 }
